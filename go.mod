@@ -1,4 +1,4 @@
-module cavinema
+module canima
 
 go 1.20
 
