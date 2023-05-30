@@ -1,0 +1,14 @@
+name: "canvine"
+mode: "dev"
+port: 8080
+version: "v0.0.1"
+machine_id: 1
+
+mysql:
+  host: "127.0.0.1"
+  port: "3306"
+  user: "root"
+  password: "*******"
+  dbname: "canvine"
+  max_open_conns: 200
+  max_idle_conns: 50

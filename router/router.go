@@ -1,8 +1,9 @@
 package router
 
 import (
-	"github.com/gin-gonic/gin"
 	"canvine/controller"
+
+	"github.com/gin-gonic/gin"
 )
 
 func SetupRouter() *gin.Engine {
@@ -16,9 +17,9 @@ func SetupRouter() *gin.Engine {
 		})
 	})
 
-	v1.POST("/user", controller.SignupHandler);
+	v1.POST("/user", controller.SignupHandler)
 
-	v1.POST("/user/:username", controller.LoginHandler);
+	v1.POST("/user/:username", controller.LoginHandler)
 
-	return r;
+	return r
 }
