@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"canima/controller"
+	"canvine/controller"
 )
 
 func SetupRouter() *gin.Engine {

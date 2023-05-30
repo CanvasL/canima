@@ -1,4 +1,4 @@
-# canima
+# Canvine
 
 ## API
 |Purpose|URI|Method|SC|

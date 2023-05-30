@@ -1,7 +1,7 @@
 package main
 
 import (
-	"canima/router"
+	"canvine/router"
 )
 
 func main() {

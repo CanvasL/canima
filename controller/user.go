@@ -2,7 +2,7 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"canima/logic"
+	"canvine/logic"
 )
 
 func SignupHandler(c *gin.Context) {

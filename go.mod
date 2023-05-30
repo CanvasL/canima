@@ -1,4 +1,4 @@
-module canima
+module canvine
 
 go 1.20
 
