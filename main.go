@@ -14,7 +14,7 @@ func main() {
 		return
 	}
 
-	// 2. init MySQL
+	// 2. init mysql
 	if err := mysql.Init(setting.Config.MySQLConfig); err != nil {
 		fmt.Println("init mysql failed, err:", err)
 		return
